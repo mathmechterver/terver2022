@@ -1,0 +1,1 @@
+4. [Зависимость. Условная вероятность. Теорема Баеса.](https://mathmechterver.github.io/terver2021/prac04/prac.html)[colab url](https://colab.research.google.com/github/mathmechterver/terver2021/blob/master/prac04/prac.ipynb)
