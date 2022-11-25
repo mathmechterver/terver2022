@@ -13165,7 +13165,7 @@ $$\rho_{\xi|\eta}(x| y) = \frac{\rho_{\xi,\eta}(x, y)}{\rho_{\eta}(y)} = \frac{\
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Матожидание строится аналогично стандартному, <strong>но</strong> условное матожидание - это <strong>функция</strong> от условия.</p>
-$$\mathbb{E}(\xi|\eta)(y) = \sum xP(\xi=x|\eta=y)dx$$$$\mathbb{E}(\xi|\eta)(y) = \int_{-\infty}^{\infty}x\rho_{\xi|\eta}(x|y)$$<p>Для разбиения $H = (H_1, H_2, H_3)$</p>
+$$\mathbb{E}(\xi|\eta)(y) = \sum xP(\xi=x|\eta=y)$$$$\mathbb{E}(\xi|\eta)(y) = \int_{-\infty}^{\infty}x\rho_{\xi|\eta}(x|y)dx$$<p>Для разбиения $H = (H_1, H_2, H_3)$</p>
 $$\mathbb{E}(\xi|H) = \left\{
     \begin{array}{ccc}
     \mathbb{E}(\xi|H_1), H=H_1 \\
