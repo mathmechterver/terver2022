@@ -13048,10 +13048,8 @@ div#notebook {
   }
 }
 </style>
-
-
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS_CHTML-full,Safe"> </script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     init_mathjax = function() {
@@ -13075,11 +13073,6 @@ div#notebook {
                     linebreaks: { 
                     automatic: true 
                     }
-                },
-                "HTML-CSS": {
-                    linebreaks: { 
-                    automatic: true 
-                    }
                 }
             });
         
@@ -13096,14 +13089,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="13.-&#1052;&#1072;&#1088;&#1082;&#1086;&#1074;-&#1080;-&#1063;&#1077;&#1073;&#1099;&#1096;&#1077;&#1074;.">13. &#1052;&#1072;&#1088;&#1082;&#1086;&#1074; &#1080; &#1063;&#1077;&#1073;&#1099;&#1096;&#1077;&#1074;.<a class="anchor-link" href="#13.-&#1052;&#1072;&#1088;&#1082;&#1086;&#1074;-&#1080;-&#1063;&#1077;&#1073;&#1099;&#1096;&#1077;&#1074;.">&#182;</a></h1>
+<h1 id="9.-%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%86%D0%B5%D0%BF%D0%B8.-%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81.">9. &#1052;&#1072;&#1088;&#1082;&#1086;&#1074;&#1089;&#1082;&#1080;&#1077; &#1094;&#1077;&#1087;&#1080;. &#1052;&#1072;&#1088;&#1082;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081; &#1089;&#1083;&#1091;&#1095;&#1072;&#1081;&#1085;&#1099;&#1081; &#1087;&#1088;&#1086;&#1094;&#1077;&#1089;&#1089;.<a class="anchor-link" href="#9.-%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%86%D0%B5%D0%BF%D0%B8.-%D0%9C%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B9%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81.">&#182;</a></h1>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src='data/cheby.png' width=500/></p>
+<p><img src="data/markov.png" alt="title"></p>
 
 </div>
 </div>
@@ -13111,38 +13104,62 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#1053;&#1077;&#1088;&#1072;&#1074;&#1077;&#1085;&#1089;&#1090;&#1074;&#1086;-&#1052;&#1072;&#1088;&#1082;&#1086;&#1074;&#1072;">&#1053;&#1077;&#1088;&#1072;&#1074;&#1077;&#1085;&#1089;&#1090;&#1074;&#1086; &#1052;&#1072;&#1088;&#1082;&#1086;&#1074;&#1072;<a class="anchor-link" href="#&#1053;&#1077;&#1088;&#1072;&#1074;&#1077;&#1085;&#1089;&#1090;&#1074;&#1086;-&#1052;&#1072;&#1088;&#1082;&#1086;&#1074;&#1072;">&#182;</a></h3><p>Пусть $\xi$ - неотрицательная, $E\xi$ - существует и конечно, $a&gt;0$ тогда
-$$P(\xi \geq a) \leq \frac{E\xi}{a}$$</p>
-<h3 id="&#1053;&#1077;&#1088;&#1072;&#1074;&#1077;&#1085;&#1089;&#1090;&#1074;&#1086;-&#1063;&#1077;&#1073;&#1099;&#1096;&#1077;&#1074;&#1072;">&#1053;&#1077;&#1088;&#1072;&#1074;&#1077;&#1085;&#1089;&#1090;&#1074;&#1086; &#1063;&#1077;&#1073;&#1099;&#1096;&#1077;&#1074;&#1072;<a class="anchor-link" href="#&#1053;&#1077;&#1088;&#1072;&#1074;&#1077;&#1085;&#1089;&#1090;&#1074;&#1086;-&#1063;&#1077;&#1073;&#1099;&#1096;&#1077;&#1074;&#1072;">&#182;</a></h3><p>Пусть $E\xi$ и $D\xi$ - существуют и конечны, $a&gt;0$ тогда
-$$P(|\xi - E\xi| \geq a) \leq \frac{D\xi}{a^2}$$</p>
-
+<h2 id="%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F">&#1058;&#1077;&#1086;&#1088;&#1080;&#1103;<a class="anchor-link" href="#%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1047;&#1072;&#1076;&#1072;&#1095;&#1080;-&#1085;&#1072;-&#1087;&#1072;&#1088;&#1091;">&#1047;&#1072;&#1076;&#1072;&#1095;&#1080; &#1085;&#1072; &#1087;&#1072;&#1088;&#1091;<a class="anchor-link" href="#&#1047;&#1072;&#1076;&#1072;&#1095;&#1080;-&#1085;&#1072;-&#1087;&#1072;&#1088;&#1091;">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>1.</strong> Докажите неравенства Маркова и Чебышева.</p>
-<p><strong>2.</strong> Устройство состоит из  n независимо работающих элементов. Вероятность отказа каждого элемента равна  0,05. 
-Вероятность того, что абсолютная величина разности между числом отказавших элементов и средним числом (математическим ожиданием) отказов окажется меньше двух, равна $80\%$. Найдите минимальное $n$, для которого выполняется неравенство.</p>
-<p><strong>3.</strong> Оцените вероятность того, что в результате подбрасывания игральной кости в течение 500 раз относительная частота появления на верхней грани шестерки отклонится от вероятности этого события (по абсолютной величине) не более чем на 0,05.</p>
-<p><strong>4.</strong> Пусть $G(n,p)$ - случайный граф на n вершинах и вероятностью ребра p.</p>
-<p>Cобытие $A$ называется почти наверное истинным, если его вероятность $p(n)$ удовлетворяет
-$\lim_{n\to\infty}p(n)=1$</p>
-<p>Аналогично, событие $A$ называется почти наверное ложным, если его вероятность $p(n)$ удовлетворяет
-$\lim_{n\to\infty}p(n)=0$</p>
-<p>Докажите:</p>
+<p>Пусть $X$ - конечное или счетное множество (фазовое пространство $\in \mathcal{N}$).</p>
+<p>Система принимает состояния из $X$, $\xi_n$ - ее состояние в момент времени $n$ ($\xi_n: \Omega \to X$)</p>
 <ul>
-<li>что при вероятности ребра $p$ такой, что $pn^{\frac{2}{3}}\to 0$ при $n\to +\infty$ в $G(n,p)$ асимптотически почти наверняка нет подграфов, изоморфных графу $K_4$.</li>
-<li>что при вероятности ребра $p$ такой, что $pn^{\frac{2}{3}}\to +\infty$ при $n\to +\infty$ в $G(n,p)$ асимптотически почти наверняка существует подграф, изоморфных графу $K_4$.</li>
-<li>Докажите, что при вероятности ребра p такой, что $pn^{\frac{5}{4}} \to 0$ при $n \to \infty$ асимптотически почти наверняка нет связных компонент, изоморфных графу-дереву-звезде на 5 вершинах. </li>
+<li>Система не зависит от предыдущих состояний $ \forall n \geq 1$ и $x_1, \ldots, x_{n+1} \in X$</li>
+</ul>
+$$P(\xi_{n+1}=x_{n+1}|\xi_0=x_0, \xi_1=x_1, \ldots, \xi_n=x_n) = P(\xi_{n+1}=x_{n+1}|\xi_n=x_n)$$<p>Вероятность перехода $P_n(x,y)$</p>
+<ol>
+<li>$\forall n \in \mathbb{N}$ $\forall x \in X$ $\sum_{y \in X} P_n(x,y) = 1$</li>
+<li>$\forall n \in \mathbb{N}$ $\forall x,y \in X$ $P_n(x,y) \geq 0$</li>
+<li>$P_n(x,y) = P(\xi_n = y|\xi_{n-1} = x)$, если $P(\xi_{n-1}=x)&gt;0$ </li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0.-(%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C-%D0%BF%D0%BE-%D0%B8%D0%BD%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%B8-ref)">&#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1072;. (&#1052;&#1086;&#1078;&#1085;&#1086; &#1076;&#1086;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100; &#1087;&#1086; &#1080;&#1085;&#1076;&#1091;&#1082;&#1094;&#1080;&#1080; <a href="https://stepik.org/lesson/254734/step/9?unit=234942">ref</a>)<a class="anchor-link" href="#%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0.-(%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE-%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C-%D0%BF%D0%BE-%D0%B8%D0%BD%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D0%B8-ref)">&#182;</a></h3><p>Марковскую цепь также можно задать через след выражение и оно эквивалентно определению выше
+$P(\xi_0 = x_0, \xi_1 = x_1,\ldots, \xi_n = x_n) = P(\xi_0=x_0)P_1(x_1, x_2)\ldots P_n(x_{n-1}, x_n)$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%D0%9E%D0%B4%D0%BD%D0%BE%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D1%86%D0%B5%D0%BF%D0%B8-%D0%BC%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B0">&#1054;&#1076;&#1085;&#1086;&#1088;&#1086;&#1076;&#1085;&#1099;&#1077; &#1094;&#1077;&#1087;&#1080; &#1084;&#1072;&#1088;&#1082;&#1086;&#1074;&#1072;<a class="anchor-link" href="#%D0%9E%D0%B4%D0%BD%D0%BE%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D1%86%D0%B5%D0%BF%D0%B8-%D0%BC%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D0%B0">&#182;</a></h3><p>Марковская цепь является однородной, если вероятность перехода из состояния на шаге $n$ в состояние на шаге $m$ зависит только от $n-m$</p>
+<p>$P_{n, n+1}(x,y) = P(x,y) = T_{x,y}$ - элемент матрицы перехода</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D0%B5-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5">&#1057;&#1090;&#1072;&#1094;&#1080;&#1086;&#1085;&#1072;&#1088;&#1085;&#1086;&#1077; &#1088;&#1072;&#1089;&#1087;&#1088;&#1077;&#1076;&#1077;&#1083;&#1077;&#1085;&#1080;&#1077;<a class="anchor-link" href="#%D0%A1%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%BE%D0%B5-%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5">&#182;</a></h3><p>$\pi^*$ называется стационарным, если для любого начального распределения $\pi$:
+$$\lim_{n\to \infty} \pi * T^n = \pi^*$$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D1%8F%D0%BD%D0%B8%D1%8F">&#1042;&#1086;&#1079;&#1074;&#1088;&#1072;&#1090;&#1085;&#1099;&#1077; &#1089;&#1086;&#1089;&#1090;&#1072;&#1103;&#1085;&#1080;&#1103;<a class="anchor-link" href="#%D0%92%D0%BE%D0%B7%D0%B2%D1%80%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D1%8F%D0%BD%D0%B8%D1%8F">&#182;</a></h3><p>$f_a(n) = P(\xi_n = a, \xi_{n-1} \neq a, \ldots, \xi_{1} \neq a|\xi_{0} = a)$ - вероятность возврата</p>
+<ul>
+<li>Если $\sum_{n=1}^{\infty}f_a(n)=1$, то $a$ - возвратное</li>
+<li>Если $\sum_{n=1}^{\infty}f_a(n)&lt;1$, то $a$ - невозвратное</li>
 </ul>
 
 </div>
@@ -13151,28 +13168,88 @@ $\lim_{n\to\infty}p(n)=0$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="&#1044;&#1047;">&#1044;&#1047;<a class="anchor-link" href="#&#1044;&#1047;">&#182;</a></h2>
+<h2 id="%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-%D0%BD%D0%B0-%D0%BF%D0%B0%D1%80%D1%83">&#1047;&#1072;&#1076;&#1072;&#1095;&#1080; &#1085;&#1072; &#1087;&#1072;&#1088;&#1091;<a class="anchor-link" href="#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8-%D0%BD%D0%B0-%D0%BF%D0%B0%D1%80%D1%83">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>1. (1 балл)</strong> Конспект по терверу объёмом 500 страниц содержит 50 опечаток (каждая из них равновероятно находится на одной из страниц). Оцените с помощью неравенств Маркова вероятность того, что на некоторой странице содержится</p>
+<ol>
+<li>Дана марковская цепь с фазовым пространством $X = \{ 1, 2, 3 \}$. Вероятности переходов не зависят от времени и показаны еа диаграмме ниже.  В начальный момент цепь находится в состоянии $1$. </li>
+</ol>
+<p><img src="data/markov-1.png" alt="title"></p>
 <ul>
-<li>не менее 3 опечаток.</li>
-<li>0 опечаток.</li>
+<li>(<a href="https://stepik.org/lesson/254734/step/10?unit=234942">ref</a>)Найдите вероятности $P(\xi_0=1,\xi_1=3,\xi_2=2,\xi_3=1)$ и $P(\xi_0=1,\xi_1=2,\xi_2=3,\xi_3=1)$.</li>
+<li>(<a href="https://stepik.org/lesson/254734/step/12?unit=234942">ref</a>)Найдите вероятности $P(\xi_2=3|\xi_0=1)$ и $P(\xi_3=2|\xi_0=1)$</li>
+<li>Выпишете матрицу переходов $T$</li>
 </ul>
-<p><strong>2. (1 балл)</strong> Правильная игральная кость подбрасывается 1000 раз. 
-С помощью неравенства Чебышёва оцените вероятность того, 
-что среднее арифметическое числа выпавших очков отклонится от математического ожидания по абсолютной величине не более чем на 0,3.</p>
-<p><strong>3. (1 балл)</strong> Великий Морской путь сулит значительную прибыль. Однако из-за пиратов в среднем груз одного из 20 кораблей не достигает порта назначения. Чтобы скомпенсировать убытки n коммерсантов создали фонд, в который складывают $6\%$ прибыли каждого корабля в момент его отплытия (вне зависимости от того, достиг ли в итоге корабль пункта назначения). При помощи неравенства Чебышева/Маркова найдите наименьшее n, при котором вероятность, что фонд не сможет возместить убытки не превышает 0.05.</p>
-<p><strong>4. (1 баллов)</strong> Передаётся слово длины n. В каждой позиции с вероятностью p независимо друг от друга происходит ошибка. При этом вероятность ошибки зависит от длины слова: $p = o(\frac{1}{n})$. Докажите, что при $n \to \infty$ ошибки происходят с вероятностью 0.</p>
-<p><strong>5.</strong> Пусть $G(n,p)$ - случайный граф на n вершинах и вероятностью ребра p. Докажите:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>2.</strong> Рассмотрим марковскую цепь с 2 состояниями и матрицей переходов. $0 &lt; a, b &lt; 1$</p>
+$$T = \begin{bmatrix}
+        1 - a &amp; a \\
+        b &amp; 1 - b 
+\end{bmatrix}$$<p>Попадая в первое состояние мы пишем в строку $a$, во второе - $b$.
+Начальное распределение $\pi = \Big(\frac{1}{2}, \frac{1}{2}\Big)$. 
+Найти:</p>
 <ul>
-<li>(1 балл) что при вероятности ребра $p$ такой, что $pn \to 0$ при $n\to +\infty$ в $G(n,p)$ асимптотически почти наверняка нет подграфов, изоморфных графу $K_3$.</li>
-<li>(гроб 1 балл) что при вероятности ребра $p$ такой, что $pn \to +\infty$ при $n\to +\infty$ в $G(n,p)$ асимптотически почти наверняка существует подграф, изоморфный графу $K_3$.</li>
+<li>$T^{n}$</li>
+<li>Стационарное распределение</li>
+<li>Отношение количеств букв $a$ к буквам $b$ в бесконечной строке. </li>
+<li>Отношение количество пар $ab$ к парам $bb$ в бесконечной строке.</li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>3.</strong> (<a href="https://stepik.org/lesson/254735/step/7?unit=234943">ref</a>)
+Вероятности переходов для однородной цепи Маркова с фазовым пространством $\{1,2,3,4,5,6\}$ показаны на рисунке ниже. Найдите все возвратные состояния цепи.</p>
+<p><img src="data/markov-2.png" alt="title"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="%D0%94%D0%BE%D0%BC%D0%B0">&#1044;&#1086;&#1084;&#1072;<a class="anchor-link" href="#%D0%94%D0%BE%D0%BC%D0%B0">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>1.</strong> (3) Цепь Маркова с пятью состояниями задана диаграммой (см. рис.). Пусть начальное распределение $\pi = (1,0,0,0,0)$</p>
+<ul>
+<li>(0.5) Найдите вероятности $P(\xi_0=1,\xi_1=3,\xi_2=2,\xi_3=1)$ и $P(\xi_0=1,\xi_1=2,\xi_2=3,\xi_3=1)$.</li>
+<li>(0.5) Найдите вероятности $P(\xi_2=3|\xi_0=1)$ и $P(\xi_3=2|\xi_0=1)$</li>
+<li>(1) Составьте матрицу переходов $Q$, соответствующую этой диаграмме и найдите матрицу $Q(2)$. </li>
+<li>(1) Найдите стационарное распределение вероятностей.</li>
+</ul>
+<p><img src="data/markov-3.png" alt="title"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>2.</strong> (2) Пусть $|X| = 3$ , вероятности перехода $t_{ii} = 0$, $t_{ij} = \frac{1}{2}$ при любых $i \neq j$ . Найдите для момента времени 100 вероятность каждого состояния, если начальное распределение $\pi_0$ равно соответственно:</p>
+<ul>
+<li>(1/3, 1/3, 1/3)</li>
+<li>(1/2, 1/2, 0)</li>
+<li>(a, b, c)</li>
+</ul>
+<p>Найдите у $T$ собственные числа. Укажите стационарное распределение.</p>
 
 </div>
 </div>

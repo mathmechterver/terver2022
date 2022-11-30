@@ -25,10 +25,12 @@
 
 12. [Условное распределение и матожидание](https://mathmechterver.github.io/terver2022/prac12/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac12/prac.ipynb)
 
-13. [Неравенства Маркова и Чебышева](https://mathmechterver.github.io/terver2022/prac13/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/stat2022/blob/master/prac13/prac.ipynb)
+13. [Марковские цепи](https://mathmechterver.github.io/terver2022/prac13/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac13/prac.ipynb)
 
-14. [Сходимости случайных величин](https://mathmechterver.github.io/terver2022/prac14/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac14/prac.ipynb)
+14. [Неравенства Маркова и Чебышева](https://mathmechterver.github.io/terver2022/prac14/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/stat2022/blob/master/prac14/prac.ipynb)
 
-15. [Закон больших чисел](https://mathmechterver.github.io/terver2022/prac15/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac15/prac.ipynb)
+15. [Сходимости случайных величин](https://mathmechterver.github.io/terver2022/prac15/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac15/prac.ipynb)
 
-16. [Центральная предельная теорема](https://mathmechterver.github.io/terver2022/prac16/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac16/prac.ipynb)
+16. [Закон больших чисел](https://mathmechterver.github.io/terver2022/prac16/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac16/prac.ipynb)
+
+17. [Центральная предельная теорема](https://mathmechterver.github.io/terver2022/prac17/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac17/prac.ipynb)
