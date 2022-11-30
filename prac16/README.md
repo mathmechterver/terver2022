@@ -1,1 +1,0 @@
-15. [Закон больших чисел](https://mathmechterver.github.io/terver2022/prac15/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac15/prac.ipynb)
