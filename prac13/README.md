@@ -1,1 +1,1 @@
-13. [Марковские цепи](https://mathmechterver.github.io/terver2021/prac06/prac06.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2021/blob/master/prac/prac.ipynb)
+13. [Марковские цепи](https://mathmechterver.github.io/terver2022/prac13/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac13/prac.ipynb)

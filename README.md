@@ -27,7 +27,7 @@
 
 13. [Марковские цепи](https://mathmechterver.github.io/terver2022/prac13/prac.html)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac13/prac.ipynb)
 
-14. [Неравенства Маркова и Чебышева](https://mathmechterver.github.io/terver2022/prac14/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/stat2022/blob/master/prac14/prac.ipynb)
+14. [Неравенства Маркова и Чебышева](https://mathmechterver.github.io/terver2022/prac14/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac14/prac.ipynb)
 
 15. [Сходимости случайных величин](https://mathmechterver.github.io/terver2022/prac15/prac.html) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mathmechterver/terver2022/blob/master/prac15/prac.ipynb)
 
